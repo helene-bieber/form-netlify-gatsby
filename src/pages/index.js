@@ -19,26 +19,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <form
-          name="feedbackDashboard"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-          method="POST"
-        >
-          <input type="hidden" name="form-name" value="feedbackDashboard" />
-          <textarea
-            id="feedbackMessage"
-            type="text"
-            placeholder="Feedback?"
-            name="feedbackMessage"
-            onChange={this.handleFeedbackChange}
-            value={this.state.feedbackMessage}
-            required
-          />
-          <button type="submit" value="Submit">
-            Send
-          </button>
-        </form>
+        <h1>Hello</h1>
       </Layout>
     )
   }
